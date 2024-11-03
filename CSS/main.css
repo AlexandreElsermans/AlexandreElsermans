@@ -1,0 +1,174 @@
+/*****
+Header
+*****/
+.header{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header .PhotoDoc, .header .InfoPerso{
+    width: 33.3%;
+}
+
+.header .PhotoDoc img{
+    height: 150px;
+}
+
+.header .PosteRecherche{
+    flex:auto;
+}
+/******
+FIN Header
+******/
+
+/*****
+Corps
+*****/
+.corps{
+    padding: 0% 2%;
+}
+.domaineCompetence table {
+    width : 100%;
+    border : 3px solid rgb(8, 8, 178);
+}
+.domaineCompetence table td, .domaineCompetence table th{
+    padding : 10px 20px;
+    border : 1px solid rgb(8, 8, 178);
+    width : 33.3%;
+}
+.domaineCompetence table th {
+    background-color: rgb(254, 254, 0);
+}
+.domaineCompetence table td {
+    background-color: rgba(254, 254, 0, 0.347);
+    color :rgb(7, 102, 185);
+}
+.centreInteret ul li {
+    font-family: DejaVu sans-serif, Arial sans-serif;
+}
+label {
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+
+}
+.buttonContact {
+    width: 200px;
+    margin-left: 21%;
+}
+/*****
+FIN Corps
+*****/
+
+/*****
+Footer
+*****/
+.footer{
+    padding: 10px;
+    margin-top: 50px;
+}
+/*****
+FIN Footer
+*****/
+
+
+
+body {
+    font-family: fantasy, sans-serif, Arial;
+    border : solid 2px rgb(8, 8, 178);
+}
+.fontFantasy{
+    font-family: fantasy, sans-serif, Arial;
+}
+.size30{
+    font-size: 30px;
+}
+.size20 {
+    font-size:  20px;
+}
+.colorBlueLight {
+    color:rgb(7, 102, 185);
+}
+.colorBlueDark {
+    color: rgb(8, 8, 178);
+}
+.colorYellow {
+    color: rgb(218, 218, 32);
+}
+.colorWhite {
+    color: white;
+}
+.TextCenter {
+    text-align: center;
+}
+.bg-colorRed {
+    background-color: rgb(197, 4, 4);
+}
+.bg-colorBlueLight {
+    background-color:rgb(7, 102, 185);
+}
+.borderBottom {
+    border-bottom : 2px solid rgb(8, 8, 178);
+}
+.borderRight {
+    border-right: 2px solid rgb(8, 8, 178);
+}
+.borderLeft {
+    border-left: 2px solid rgb(8, 8, 178);
+}
+.borderTOP {
+    border-top: 2px solid rgb(8, 8, 178);
+}
+.border {
+    border: 2px solid rgb(8, 8, 178);
+}
+.size12 {
+    font-size: 12px;
+}
+h2 {
+    padding :0px;
+    margin : 30px 0px;
+}
+.gauche {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.col1 {
+    width: 20%;
+}
+.col2 {
+    width: 80%;
+}
+
+
+@media (max-width : 800px){
+    .size30{
+        font-size: 22px;
+    }
+    .size20 {
+        font-size:  14px;
+    }
+    .header .PhotoDoc img{
+        height: 80px;
+    }
+    .col1 {
+        width: 30%;
+    }
+    .col2 {
+        width: 70%;
+    }
+}
+
+@media (min-width : 801px) and (max-width : 950px){
+    .col1 {
+        width: 30%;
+    }
+    .col2 {
+        width: 70%;
+    }
+}

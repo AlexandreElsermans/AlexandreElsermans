@@ -1,0 +1,60 @@
+nav {
+    background-color: rgb(197, 4, 4);
+    border: 2px solid black;  
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: raw wrap;
+}
+
+nav li {
+    list-style-type: none;
+    width:33.3%;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li:hover a{
+    padding: 12.75px 30px 12.75px 30px;
+}
+
+.MenuInfo:hover{
+    border-top: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
+
+.MenuParcours:hover{
+    border-top: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
+
+.MenuContact:hover{
+    border-top: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
+
+.MenuParcours > .selected{
+    border-bottom: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
+
+.MenuContact > .selected{
+    border-bottom: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
+
+.MenuInfo > .selected{
+    border-bottom: 5px solid rgb(8, 8, 178);
+    background-color: rgba(7, 102, 185, 0.393);
+}
